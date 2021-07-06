@@ -1,7 +1,7 @@
 provider "aws" {
   region = "ap-south-1"
-  access_key = "AKIAUFEQA2AP7ZVYF27N"
-secret_key = "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"
+  access_key = ""
+secret_key = ""
 }
 
 resource "aws_vpc" "kubernetes" {
